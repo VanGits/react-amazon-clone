@@ -1,0 +1,30 @@
+.recommended{
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    height: max-content;
+    align-items: flex-start;
+    background-color: white;
+}
+
+
+.recommended small{
+    font-size: 14px;
+    line-height:1.2em;
+    height:1.35em;
+    margin-top: 5px;
+    overflow:hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+}
+
+.recommended__loading{
+    font-size: 68px;
+}

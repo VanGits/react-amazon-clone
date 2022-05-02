@@ -1,0 +1,138 @@
+footer{
+    overflow-x: hidden;
+}
+
+.back__to-top{
+    background-color: #37475a;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.back__to-top h5{
+    color: white;
+    font-weight: 400;
+}
+
+.back__to-top:hover{
+    background-color: #485769;
+    cursor: pointer;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+.main__footer{
+    background-color: #232f3e;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+   
+    
+    
+}
+.main__columns{
+    display: flex;
+    width: 100%;
+    max-width: 1600px;
+    justify-content: space-evenly;
+    
+}
+
+.footer__item{
+    color: #dddddd;
+    font-size: 14px;
+    padding-top: 10px;
+}
+
+.footer__item:first-child{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding-top: 40px;
+    
+}
+.footer__item:first-child:hover{
+    cursor: text;
+    text-decoration: none;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.noClickFooter{
+    cursor: not-allowed;
+}
+.noClickFooter:hover{
+    text-decoration: 1px underline white;
+}
+
+.footer__line{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(100, 100, 100);
+    border: none;
+    outline: none;
+    margin-top: 40px;
+}
+
+.footer__logo-wrapper{
+    margin-top:40px;
+}
+
+.footer__logo{
+    width: 80px;
+    object-fit: contain;
+   
+}
+
+.footer__copyright{
+    margin-top: 40px;
+    width: 100%;
+    height: 100%;
+    background-color: #131a22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__copyright a{
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 300;
+    
+}
+.footer__copyright p{
+    color: #ffffff;
+    font-size: 12px;
+    padding: 10px;
+    font-weight: 300;
+    
+}
+
+.footer__maker{
+    width: 100%;
+    display: flex;
+    padding-bottom: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color: #131a22;
+    
+
+}
+
+.footer__maker p{
+    font-size: 12px;
+ 
+}

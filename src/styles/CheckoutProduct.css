@@ -1,0 +1,83 @@
+.checkoutProduct__img{
+    height: 180px;
+    width: 180px;
+    object-fit: contain;
+}
+.checkoutProduct__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+}
+.checkoutProduct__img-wrapper{
+    max-height: 180px;
+    max-width: 180px;
+    object-fit: contain;
+}
+
+.checkoutProduct{
+    display: flex;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.checkoutProduct__inStock{
+    color: #007600;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.checkoutProduct__title{
+    font-size: 18px;
+    
+}
+
+.checkoutProduct__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    margin-left: 10px;
+}
+
+.checkoutProduct__price{
+    text-align: end;
+    font-weight: 800;
+    font-size: 18px;
+}
+
+.checkoutProduct__gift{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.checkoutProduct__gift-text{
+    margin-left: 5px;
+    font-size: 12px;
+    
+}
+
+.delete-btn{
+    width: 20px;
+    margin-top: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #007185;
+}
+
+.delete-btn:hover{
+    text-decoration: underline;
+}
+
+.checkoutProduct__shipping{
+    font-size: 12px;
+}
+
+.checkoutProduct__shipping a{
+    cursor: not-allowed !important;
+}
+
+

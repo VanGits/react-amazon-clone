@@ -1,0 +1,83 @@
+
+@import url(//db.onlinewebfonts.com/c/157c6cc36dd65b1b2adc9e7f3329c761?family=Amazon+Ember);
+*{
+    scroll-behavior: smooth;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 12px;
+}
+
+.container{
+    padding: 48px 0;
+    width: 100%;
+}
+
+
+@media(min-width: 200px){
+    .app{
+        zoom: .2
+
+    }
+    
+}
+@media(min-width: 300px){
+    .app{
+        zoom: .25
+
+    }
+    
+}
+@media(min-width: 400px){
+    .app{
+        zoom: .3
+    }
+}
+@media(min-width: 500px){
+    .app{
+        zoom: .4
+    }
+}
+@media(min-width: 600px){
+    .app{
+        zoom: .5
+    }
+}
+@media(min-width: 700px){
+    .app{
+        zoom: .5
+    }
+}
+@media(min-width: 800px){
+    .app{
+        zoom: .6
+    }
+}
+@media(min-width: 1000px){
+    .app{
+        zoom: .9
+    }
+    
+   
+    
+}
+@media(min-width: 1100px){
+    .app{
+        zoom: 1
+    }
+    
+   
+    
+}
+
+
+@media(max-width: 1400px){
+    .item:nth-child(10),.item:nth-child(11),.item:nth-child(12),.item:nth-child(13),.item:nth-child(14){
+        display: none;
+    }
+}
+
